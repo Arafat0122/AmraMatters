@@ -1,11 +1,12 @@
 /* Logo Section */
-.logo{
+.logo {
     font-size: 45px;
     display: flex;
     align-items: center;
     gap: 3px;
     margin: 0;
 }
+
 .logo-name {
     font-family: "Bebas Neue", serif;
     margin: 0;
@@ -17,7 +18,7 @@
 }
 
 /* Nav Links */
-.nav-items{
+.nav-items {
     list-style: none;
     font-family: "Markazi Text", serif;
     font-size: 30px;
@@ -28,12 +29,12 @@
     color: rgb(56, 56, 56);
 }
 
-.nav-items > li:hover{
+.nav-items>li:hover {
     text-decoration: underline;
     cursor: pointer;
 }
 
-.nav-items > li > button{
+.nav-items>li>button {
     background-color: black;
     color: white;
     font-size: 30px;
@@ -42,13 +43,13 @@
     padding: 0 15px;
 }
 
-.nav-items > li > button:hover{
+.nav-items>li>button:hover {
     background-color: rgb(78, 78, 78);
     cursor: pointer;
 }
 
 /* Navbar section */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,31 +58,33 @@ nav{
 
 
 /* Hero section */
-.hero{
+.hero {
     text-align: center;
     font-size: 60px;
     margin: 102px 0 30px;
     font-family: "Roboto", serif;
 }
-h2{
+
+h2 {
     margin: 0;
 }
-.hero-des{
+
+.hero-des {
     font-size: 25px;
     margin: 50px 0;
 }
 
 /* Trusted section */
-.trusted{
+.trusted {
     margin: 150px 0;
 }
 
-.trusted > p{
+.trusted>p {
     text-align: center;
     font-size: 15px;
 }
 
-.companies{
+.companies {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +93,7 @@ h2{
 }
 
 /* Gallery section */
-.gallery{
+.gallery {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,9 +101,27 @@ h2{
     gap: 20px;
 }
 
-.gallery > img{
+.gallery>img {
     height: 830px;
     width: 1540px;
     border: 1px rgb(224, 216, 216) solid;
     border-radius: 20px;
+}
+
+/* Inspiring Companies Section */
+.inspiring {
+    margin: 150px 0;
+}
+
+.inspiring>p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.inspiring-companies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
 }
